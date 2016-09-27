@@ -13,6 +13,7 @@ When admin logged-in (login.php)
 ![admin](http://www.pipiscrew.com/wp-content/uploads/2016/09/fcalendar1.jpg)
 
 has the :
+
 **point3** – add worker
 
 **point2** – drag the workers to calendar, added from point3 (saved to local sqlite)
