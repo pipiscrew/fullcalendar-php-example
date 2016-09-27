@@ -37,3 +37,17 @@ and is one other, when the draggable events r-clicked!
 -keep in mind when admin logged-in, there is a 24h validation!
 
 ps to create the admin, you have to unrem the lines at login.php once, the rem again!!
+
+
+___
+
+
+
+reference :
+**sqlite** doesnt have **date** field type, using **dddd/mm/yy** on TEXT field type, we are able to execute a query (get_events.php) like :
+```sql
+select * from day_offs 
+left join users on users.user_id=day_offs.user_id
+where date_occur between '2016-09-23' and '2016-09-29'
+```
+more at https://www.sqlite.org/lang_datefunc.html
