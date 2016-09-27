@@ -23,7 +23,7 @@ has the :
 **point1** – anchor drives to login.php / when logged-in drives to logout.php
 
 
-the application runs in index.php, all workers are available to view the calendar.
+the application runs on index.php, all workers are available to view the calendar.
 
 when a worker dropped to a date this modal appears 
 
