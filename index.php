@@ -595,7 +595,7 @@
 		                <button type="button" id="btn_dayoff_type" data-eventid="5" class="btn btn-success btn-block btn-ripple">compensate</button>
 		                <button type="button" id="btn_dayoff_type" data-eventid="6" class="btn btn-yellow btn-block btn-ripple">sickness/doctor</button>
 		                <button type="button" id="btn_dayoff_type" data-eventid="7" class="btn btn-brown btn-block btn-ripple">training</button>
-		                <button type="button" id="btn_dayoff_type" data-eventid="8" class="btn btn-blue-grey btn-block btn-ripple">CZ public holiday</button>
+		                <button type="button" id="btn_dayoff_type" data-eventid="8" class="btn btn-blue-grey btn-block btn-ripple">public holiday</button>
 		                <button type="button" id="btn_dayoff_type" data-eventid="9" class="btn btn-inverted btn-block btn-ripple">personal leave</button>
 		            
 		                <div class="input-group">
