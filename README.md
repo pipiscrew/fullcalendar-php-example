@@ -43,7 +43,6 @@ ___
 
 
 
-reference :
 **sqlite** doesnt have **date** field type, using **dddd/mm/yy** on TEXT field type, we are able to execute a query (get_events.php) like :
 ```sql
 select * from days_off 
