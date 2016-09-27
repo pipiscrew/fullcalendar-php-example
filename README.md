@@ -28,3 +28,5 @@ the application runs in index.php, all workers are available to view the calenda
 when a worker dropped to a date this modal appears 
 
 ![event type](http://www.pipiscrew.com/wp-content/uploads/2016/09/fcalendar3.png)
+
+ps to create the admin you have to unrem the lines at login.php once the rem again!!
