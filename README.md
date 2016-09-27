@@ -29,7 +29,11 @@ when a worker dropped to a date this modal appears
 
 ![event type](http://www.pipiscrew.com/wp-content/uploads/2016/09/fcalendar3.png)
 
+and is one other, when the draggable events r-clicked!
 
-keep in mind when admin logged-in, there is a 24h validation!
+
+
+
+-keep in mind when admin logged-in, there is a 24h validation!
 
 ps to create the admin you have to unrem the lines at login.php once, the rem again!!
