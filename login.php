@@ -50,7 +50,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 } 
 //auto go to portal when loggedin
 if (isset($_SESSION["id"])) {
-	date_default_timezone_set("UTC");
 	
 	if ($_SESSION["login_expiration"] == date("Y-m-d"))
 	{	
