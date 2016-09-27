@@ -14,8 +14,11 @@ When admin logged-in (login.php)
 
 has the :
 **point3** – add worker
+
 **point2** – drag the workers to calendar, added from point3 (saved to local sqlite)
+
 **point4** - can move the event(s).
+
 **point1** – anchor drives to login.php / when logged-in drives to logout.php
 
 
