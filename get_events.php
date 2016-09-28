@@ -15,8 +15,8 @@
 
     $db = connect();
 	
-	$rows = getSet($db, "select * from day_offs left join users on users.user_id=day_offs.user_id",null);
-	
+	$rows = getSet($db, "select * from day_offs left join users on users.user_id=day_offs.user_id where date_occur between ? and ?",array($_GET["start"],$_GET["end"]));
+     
 	//create an array
 	$record = array();
 	
