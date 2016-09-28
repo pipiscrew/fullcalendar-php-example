@@ -34,7 +34,7 @@ and is one other, when the draggable events r-clicked!
 
 
 
--keep in mind when admin logged-in, there is a 24h validation!
+-keep in mind when admin logged-in, there is a 24h validation + 3 login attempts!
 
 ps to create the admin, you have to unrem the lines at login.php once, the rem again!!
 
@@ -43,7 +43,7 @@ ___
 
 
 
-**sqlite** doesnt have **date** field type, using **dddd/mm/yy** on TEXT field type, we are able to execute a query (get_events.php) like :
+**sqlite** doesnt have **date** field type, using **yyyy/mm/dd** on TEXT field type, we are able to execute a query (get_events.php) like :
 ```sql
 select * from days_off 
 left join users on users.user_id=days_off.user_id
