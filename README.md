@@ -43,10 +43,19 @@ ___
 
 
 
-**sqlite** doesnt have **date** field type, using **yyyy/mm/dd** on TEXT field type, we are able to execute a query (get_events.php) like :
+**sqlite** doesnt have **date** field type, using **yyyy-mm-dd** on TEXT field type, we are able to execute a query (get_events.php) like :
 ```sql
 select * from days_off 
 left join users on users.user_id=days_off.user_id
 where date_occur between '2016-09-23' and '2016-09-29'
 ```
+
+alternative, universal solution when have timestamp using sqlite builtin function strftime
+```sql
+--http://www.pipiscrew.com/2017/05/sqlite-query-datetime-between/
+select * from days_off 
+left join users on users.user_id=days_off.user_id
+where strftime('%s', date_occur) between strftime('%s', '2016-09-23 00:00') and strftime('%s', '2016-09-29 23:59')
+```
+
 more at https://www.sqlite.org/lang_datefunc.html
