@@ -29,6 +29,7 @@ function connect() {
 	if ($d==0)
 	{
 		executeSQL($dbh, "CREATE TABLE [users] (user_id INTEGER PRIMARY KEY, user_mail TEXT, user_password TEXT, user_level INTEGER)", null);
+		executeSQL($dbh, "CREATE TABLE [day_offs] (day_off_id INTEGER PRIMARY KEY, day_off_type INTEGER, user_id INTEGER, date_occur TEXT, comment TEXT)", null);
 		executeSQL($dbh, "your other tables here?",null);
 		
 		//read&write only server (user cant download the dbase)
