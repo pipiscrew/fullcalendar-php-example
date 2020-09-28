@@ -59,3 +59,10 @@ where strftime('%s', date_occur) between strftime('%s', '2016-09-23 00:00') and 
 ```
 
 more at https://www.sqlite.org/lang_datefunc.html
+
+
+___
+
+
+Alternative - Life Calendar – Your Life in Weeks
+https://life-calendar-in-weeks.vercel.app/
